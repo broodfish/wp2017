@@ -84,8 +84,3 @@ padding-top: 10px;
 padding-bottom: 10px;
 order:2;
 }
-#id_header {
-/* 設定header的高度 */
-height: 150px;
-box-sizing: border-box;
-}
