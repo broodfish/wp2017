@@ -1,0 +1,91 @@
+body{
+background-image: url("https://raw.githubusercontent.com/broodfish/wp2017/master/watercolor-circles-2277.jpg");
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+}
+footer{
+  font-family: 'Oswald',Microsoft JhengHei;
+  left: 0;
+  background-color: #FFFF77; 
+  clear: both;
+  height: auto;
+  width: -webkit-fill-available;
+  bottom: 0;
+  display: flex;
+  order: 3;
+}
+section{
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.chen{
+color: #227700;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 150pt;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.szyu{
+color: #227700;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 90pt;
+}
+.EE{
+color: #227700;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 15pt;
+margin-bottom: 30px;
+}
+.birth{
+color: #227700;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 15pt;
+margin-bottom: 30px;
+}
+.hobby{
+color: #227700;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 15pt;
+margin-bottom: 30px;
+}
+.contact{
+color: #009FCC;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 12pt;
+margin-left: 30px;
+margin-top: 0 auto;
+}
+#first_name{
+width: auto;
+height: auto;
+float: left;
+margin-left: 20px;
+margin-right: 15px;
+margin-top: 10px;
+order: 1;
+}
+#last_name{
+width: auto;
+height: auto;
+float: left;
+margin-left: 15px;
+margin-top: 30px;
+margin-bottom: 10px;
+order:1
+}
+#content{
+width: 150vw;
+height: 40vh;
+float: left;
+margin-left: 100px;
+line-height: 0.5vw;
+padding-top: 10px;
+padding-bottom: 10px;
+order:2;
+}
+#id_header {
+/* 設定header的高度 */
+height: 150px;
+box-sizing: border-box;
+}
