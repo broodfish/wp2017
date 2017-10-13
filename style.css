@@ -32,24 +32,6 @@ color: #227700;
 font-family: 'Oswald',Microsoft JhengHei;
 font-size: 50pt;
 }
-.profile{
-color: #227700;
-font-family: 'Oswald',Microsoft JhengHei;
-font-size: 15pt;
-margin-bottom: 30px;
-}
-.birth{
-color: #227700;
-font-family: 'Oswald',Microsoft JhengHei;
-font-size: 15pt;
-margin-bottom: 30px;
-}
-.hobby{
-color: #227700;
-font-family: 'Oswald',Microsoft JhengHei;
-font-size: 15pt;
-margin-bottom: 30px;
-}
 .contact{
 color: #009FCC;
 font-family: 'Oswald',Microsoft JhengHei;
@@ -83,4 +65,8 @@ line-height: 0.5vw;
 padding-top: 10px;
 padding-bottom: 10px;
 order:2;
+color: #227700;
+font-family: 'Oswald',Microsoft JhengHei;
+font-size: 15pt;
+margin-bottom: 30px;
 }
