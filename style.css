@@ -20,13 +20,13 @@ overflow-x: hidden;
 color: #227700;
 font-family: 'Oswald',Microsoft JhengHei;
 font-size: 100pt;
-margin-top: 50px;
-margin-bottom: 50px;
+margin:0;
 }
 .szyu{
 color: #227700;
 font-family: 'Oswald',Microsoft JhengHei;
 font-size: 50pt;
+margin:0;
 }
 .contact{
 color: #009FCC;
@@ -36,20 +36,19 @@ margin-left: 30px;
 margin-top: 0 auto;
 }
 #first_name{
-width: auto;
-height: auto;
+width: 135px;
+height: 180px;
 float: left;
 margin-left: 20px;
-margin-right: 15px;
 margin-top: 10px;
 order: 1;
 }
 #last_name{
-width: auto;
-height: auto;
+width: 250px;
+height: 130px;
 float: left;
 margin-left: 15px;
-margin-top: 70px;
+margin-top: 80px;
 order:1
 }
 #content{
