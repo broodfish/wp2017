@@ -17,19 +17,20 @@ body {
   flex: 1 1 15%;
 }
 #profile {
-  width: auto;
-  height: 75%;
+  width: 30%;
+  height: 60%;
   background-color:rgba(141, 140, 140, 0.83); 
   flex: 0 0 auto;
   margin: 0 5%;
   display: none;
 }
 #contact {
-  width: auto;
-  height:75%;
+  width: 60%;
+  height:55%;
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
-  margin: 0 5%;
+  margin-left: 30%;
+  margin-top: 5%;
   display: none;
 }
 #content{
