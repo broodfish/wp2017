@@ -15,7 +15,7 @@ body {
   flex: 0 0 10%;
 }
 #name {
-  flex: 1 1 15%;
+  flex: 1 1 10px;
 }
 #profile {
   width: 30%;
