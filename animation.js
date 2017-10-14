@@ -18,7 +18,7 @@ $(document).ready(function(){
     else if(x==3){
       $("#pic").animate({marginTop:"-10vh"}).transition('fade down');
       $("#profile").animate({marginTop:"5vh"});
-      $("#contact").animate({marginTop:"60vh"}).transition('fade up');
+      $("#contact").animate({marginTop:"80vh"}).transition('fade up');
       $("#pic").animate({marginTop:"110vh"});
       x=1;
     }
