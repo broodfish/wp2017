@@ -19,7 +19,7 @@ body {
 }
 #profile {
   width: 30%;
-  height: 60%;
+  height: 50%;
   background-color:rgba(141, 140, 140, 0.83); 
   flex: 0 0 auto;
   margin-top:15%;
@@ -27,12 +27,12 @@ body {
   position:absolute;
 }
 #contact {
-  width: 60%;
+  width: 55%;
   height:55%;
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
   margin-left: 35%;
-  margin-top: 60%;
+  margin-top: 70%;
   position:absolute;
 }
 #pic{
