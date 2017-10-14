@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   background-color: #424242;
   font-family: 'Oswald',Microsoft JhengHei;
+  overflow:hidden;
 }
 #main {
   flex: 1 1 auto;
