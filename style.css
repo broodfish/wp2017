@@ -22,8 +22,8 @@ body {
   height: 60%;
   background-color:rgba(141, 140, 140, 0.83); 
   flex: 0 0 auto;
-  margin: 0 5%;
-  display: none;
+  margin-top:15%;
+  margin-left:5%;
   position:absolute;
 }
 #contact {
@@ -32,9 +32,18 @@ body {
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
   margin-left: 35%;
-  margin-top: 5%;
-  display: none;
+  margin-top: 60%;
   position:absolute;
+}
+#pic{
+  width: 70%;
+  height:50%;
+  background-color:rgba(141, 140, 140, 0.83);
+  flex: 0 0 auto;
+  margin-left: 15%;
+  margin-top: 110%;
+  position:absolute;
+  display:none;
 }
 #content{
   margin:5vh 5vw;
