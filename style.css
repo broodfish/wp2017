@@ -24,15 +24,17 @@ body {
   flex: 0 0 auto;
   margin: 0 5%;
   display: none;
+  position:absolute;
 }
 #contact {
   width: 60%;
   height:55%;
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-top: 5%;
   display: none;
+  position:absolute;
 }
 #content{
   margin:5vh 5vw;
