@@ -34,7 +34,7 @@ body{
   font-size: 12pt;
   margin-left: 30px;
 }
-.first_name{
+#first_name{
   width: 135px;
   height: 180px;
   float: left;
@@ -42,7 +42,7 @@ body{
   margin-top: 10px;
   order: 1;
 }
-.last_name{
+#last_name{
   width: 145px;
   height: 130px;
   float: left;
@@ -74,7 +74,7 @@ body{
   transition: all .2s;
   -webkit-transform: all .2s;
 }
-.ui.cards > #card.hidden {
+#card.hidden {
   opacity: 1;
   margin: 2em auto 0;
 }
