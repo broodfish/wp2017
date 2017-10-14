@@ -28,7 +28,7 @@ body {
 }
 #contact {
   width: 45vw;
-  height: 45vh;
+  height: 30vh;
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
   margin-left: 35vw;
