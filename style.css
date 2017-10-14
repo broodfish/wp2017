@@ -18,29 +18,29 @@ body {
   flex: 1 1 10px;
 }
 #profile {
-  width: 30%;
-  height: 120px;
+  width: 30vw;
+  height: 120vh;
   background-color:rgba(141, 140, 140, 0.83); 
   flex: 0 0 auto;
-  margin-top:5%;
-  margin-left:5%;
+  margin-top:5vh;
+  margin-left:5vw;
   position:absolute;
 }
 #contact {
-  width: 55%;
-  height: 150px;
+  width: 60vw;
+  height: 45vh;
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
-  margin-left: 35%;
-  margin-top: 35%;
+  margin-left: 35vw;
+  margin-top: 35vh;
   position:absolute;
 }
 #pic{
   width: 70%;
-  height:50%;
+  height:30vh;
   flex: 0 0 auto;
-  margin-left: 20%;
-  margin-top: 110%;
+  margin-left: 20vw;
+  margin-top: 110vh;
   position:absolute;
   display:none;
 }
