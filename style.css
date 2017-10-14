@@ -19,7 +19,7 @@ body {
 }
 #profile {
   width: 30%;
-  height: 50%;
+  height: 100px;
   background-color:rgba(141, 140, 140, 0.83); 
   flex: 0 0 auto;
   margin-top:5%;
@@ -28,7 +28,7 @@ body {
 }
 #contact {
   width: 55%;
-  height:55%;
+  height: 150px;
   background-color:rgba(141, 140, 140, 0.83);
   flex: 0 0 auto;
   margin-left: 35%;
@@ -39,7 +39,7 @@ body {
   width: 70%;
   height:50%;
   flex: 0 0 auto;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-top: 110%;
   position:absolute;
   display:none;
