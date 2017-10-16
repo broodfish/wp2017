@@ -38,12 +38,12 @@ body {
   width: 45vw;
   height: 40vh;
   background-color: rgba(250, 250, 250, 0.83);
-  margin:15vh auto 25vh 15vh;
+  margin:15vh 10vh 25vh auto;
 }
 .p03{
   width: 35vw;
   height:30vh;
-  margin:10vh auto 20vh 20vh;
+  margin:10vh auto 20vh 35vh;
 }
 #content{
   float: left;
