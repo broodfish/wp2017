@@ -2,6 +2,14 @@ body {
   background-color: #424242;
   font-family: 'Oswald',Microsoft JhengHei;
   overflow:hidden;
+  display: flex;
+  flex-direction:row;
+}
+.rrr{
+  flex:1 1 10px;
+}
+.main{
+  flex:0 0 auto;
 }
 .nav{
   position:fixed;
