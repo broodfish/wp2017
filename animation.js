@@ -2,7 +2,7 @@ $(document).ready(function(){
   var num_li=$(".nav li").length;
   var n=1;
   var moving=0;
-  $(window).mousewhell(function(e){
+  $(window).mousewheel(function(e){
     $("html, body").stop();
     if(moving==0){
       moving=1;
