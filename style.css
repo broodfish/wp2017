@@ -29,29 +29,29 @@ body {
   background-color: #DDDDDD;
 }
 .p01 {
-  width: 80vw;
+  width: 50vw;
   height: 40vh;
   background-color:rgba(141, 140, 140, 0.83); 
   margin-left:5vw;
-  margin-top:10vh;
+  margin-top:20vh;
 }
 .p02 {
   width: 45vw;
   height: 30vh;
   background-color: rgba(250, 250, 250, 0.83);
   margin-left: 35vw;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 .p03{
   width: 70%;
   height:30vh;
   margin-left: 20vw;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 #content{
   float: left;
   margin:5vh 0 0 5vw;
 }
 .footer{
-  height:60vh;
+  height:70vh;
 }
