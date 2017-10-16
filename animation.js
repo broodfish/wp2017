@@ -3,7 +3,6 @@ $(document).ready(function(){
   var n=1;
   var moving=0;
   $(window).mousewheel(function(e){
-    $("html, body").stop();
     if(moving==0){
       moving=1;
       if(e.deltaY==-1){
