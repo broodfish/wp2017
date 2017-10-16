@@ -43,8 +43,7 @@ $(document).ready(function(){
   });
 
   function center(){
-    var pos=$(window).height()/2-$(".nav").height()/2;
-    $(".nav").css("top",pos);
+    $(".nav").css("top","15vh");
   }
   $(window).scroll(function(){
     if(n==1){
