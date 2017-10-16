@@ -27,7 +27,7 @@ $(document).ready(function(){
   });
   for(var i=0;i<=num_li;i++){
     $(".nav li:eq("+i+")").click({
-      id:i;
+      id:i
     }, function(e){
       $(".nav li").css("background-color","AAAAAA");
       var page=e.data.id+1;
