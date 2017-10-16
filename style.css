@@ -1,6 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
   background-color: #424242;
   font-family: 'Oswald',Microsoft JhengHei;
   overflow:hidden;
@@ -19,12 +17,6 @@ body {
 }
 .nav ul .active{
   background-color: #DDDDDD;
-}
-.main {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 .p01 {
   width: 80vw;
