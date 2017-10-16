@@ -5,44 +5,47 @@ body {
   font-family: 'Oswald',Microsoft JhengHei;
   overflow:hidden;
 }
-#main {
+.nav{
+  position:fixed;
+  top: 50%;
+  left: 0;
+}
+.nav ul li{
+  width: 10px;
+  height:20vh;
+  margin:0 10px;
+  background-color: #AAAAAA;
+  cursor: pointer;
+}
+.nav ul .active{
+  background-color: #DDDDDD;
+}
+.main {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-#bottom {
-  flex: 0 0 10%;
-}
-#name {
-  flex: 1 1 10px;
-}
-#profile {
+.p01 {
   width: 80vw;
   height: 40vh;
   background-color:rgba(141, 140, 140, 0.83); 
-  flex: 0 0 auto;
   margin-top:5vh;
   margin-left:5vw;
-  position:absolute;
 }
-#contact {
+.p02 {
   width: 45vw;
   height: 30vh;
   background-color: rgba(250, 250, 250, 0.83);
-  flex: 0 0 auto;
   margin-left: 35vw;
   margin-top: 60vh;
-  position:absolute;
 }
-#pic{
+.p03{
   width: 70%;
   height:30vh;
-  flex: 0 0 auto;
   margin-left: 20vw;
   margin-top: 110vh;
   position:absolute;
-  display:none;
 }
 #content{
   float: left;

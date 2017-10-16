@@ -1,26 +1,67 @@
-var x=1;
 $(document).ready(function(){
-  $(document).click(function(){
-    if(x==1){
-      $("#profile").animate({marginTop:"-10vh"}).transition('fade down');
-      $("#contact").animate({marginTop:"5vh"});
-      $("#pic").animate({marginTop:"60vh"}).transition('fade up');
-      $("#profile").animate({marginTop:"110vh"});
-      x+=1;
+  var num_li=$(".nav li").length;
+  var n=1;
+  var moving=0;
+  $(window).mousewhell(function(e){
+    $("html, body").stop();
+    if(moving==0){
+      moving=1;
+      if(e.deltaY==-1){
+        if(n<num_li){
+          n++;
+        }
+        else{n=1};
+      }
+      else{
+        if(n>1){
+          n--;
+        }
+        else{n=num_li;}
+      }
     }
-    else if(x==2){
-      $("#contact").animate({marginTop:"-10vh"}).transition('fade down'); 
-      $("#pic").animate({marginTop:"5vh"});
-      $("#profile").animate({marginTop:"60vh"}).transition('fade up');
-      $("#contact").animate({marginTop:"110vh"});
-      x+=1;
+    $("html, body").animate({
+      "scrollTop": %(".p0"+n).offset().top
+    }, function(){
+      moving=0;
+    });
+  });
+  for(var i=0;i<=num_li;i++){
+    $(".nav li:eq("+i+")").click({
+      id:i;
+    }, function(e){
+      $(".nav li").css("background-color","AAAAAA");
+      var page=e.data.id+1;
+      $("html,body").animate({
+        "scrollTop": $(".p0"+page).offset().top
+      });
+      $(this).css("background","#DDDDDD");
+      n=e.data.id+1;
+    })
+  }
+
+  center();
+
+  $(window).resize(function(){
+    center();
+  });
+
+  function center(){
+    var pos=$(window).height()/2-$(".nav").height()/2;
+    $(".nav").css("top",pos);
+  }
+  $(window).scroll(function(){
+    if(n==1){
+      $(".nav li").css("background-color","#AAAAAA");
+      $(".nav li:eq(0)").css("background-color","#DDDDDD");
     }
-    else if(x==3){
-      $("#pic").animate({marginTop:"-10vh"}).transition('fade down');
-      $("#profile").animate({marginTop:"5vh"});
-      $("#contact").animate({marginTop:"80vh"}).transition('fade up');
-      $("#pic").animate({marginTop:"110vh"});
-      x=1;
+    else if(n==2){
+      $(".nav li").css("background-color","#AAAAAA");
+      $(".nav li:eq(1)").css("background-color","#DDDDDD");
+    }
+    else if(n==3){
+      $(".nav li").css("background-color","#AAAAAA");
+      $(".nav li:eq(2)").css("background-color","#DDDDDD");
     }
   });
+
 });
