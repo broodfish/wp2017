@@ -9,13 +9,11 @@ $(document).ready(function(){
         if(n<num_li){
           n++;
         }
-        else{n=1};
       }
       else{
         if(n>1){
           n--;
         }
-        else{n=num_li;}
       }
     }
     $("html, body").animate({
