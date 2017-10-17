@@ -26,13 +26,6 @@ $(document).ready(function(){
   for(var i=0;i<=num_li;i++){
     $(".nav li:eq("+i+")").click({
       id:i
-    }, function(){
-      b1=0;
-      b2=0;
-      b3=0;
-      $(".box1>.content").hide("fast",function(){$(".box1").animate({height:"40vh", width:"40vw", margin:"2.5vw auto 5vh 5vh"},"fast");});
-      $(".box2>.content").hide("fast",function(){$(".box2").animate({height:"40vh", width:"35vw", margin:"15vh 10vh 25vh auto", float: "right"},"fast");});
-      $(".box3>.content").hide("fast",function(){$(".box3").animate({height:"60vh", width:"45vw", margin:"10vh auto 20vh 35vh"},"fast");}); 
     }, function(e){
       $(".nav li").css("background-color","AAAAAA");
       var page=e.data.id+1;
