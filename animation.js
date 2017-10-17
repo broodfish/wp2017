@@ -3,8 +3,10 @@ $(document).ready(function(){
   var n=1;
   var moving=0;
   $(window).mousewheel(function(e){
-    if(moving==0){
-      moving=1;
+    b1=0;
+    b2=0;
+    $(".box1>.content").hide("fast",function(){$(".box1").animate({height:"40vh", width:"50vw", margin:"2.5vw auto 5vh 5vh"},"fast");});
+    $(".box2>.content").hide("fast",function(){$(".box2").animate({height:"45vh", width:"40vw", margin:"15vh 10vh 25vh auto", float: "right"},"fast");});
       if(e.deltaY==-1){
         if(n<num_li){
           n++;
@@ -15,12 +17,9 @@ $(document).ready(function(){
           n--;
         }
       }
-    }
     $("html, body").animate({
       "scrollTop": $(".p0"+n).offset().top
-    }, function(){
-      moving=0;
-    });
+    }, "fast");
   });
   for(var i=0;i<=num_li;i++){
     $(".nav li:eq("+i+")").click({
@@ -59,5 +58,25 @@ $(document).ready(function(){
       $(".nav li:eq(2)").css("background-color","#DDDDDD");
     }
   });
-
+  var b1=0,b2=0,b3=0;
+  $(".box1").click(function(){
+    if(b1==0){
+      $(".box1").animate({height:"80vh", width:"70vw"},function(){$(".box1>.content").show();});
+      b1=1;
+    }
+    else{
+      $(".box1>.content").hide(function(){$(".box1").animate({height:"40vh", width:"50vw", margin:"2.5vw auto 5vh 5vh"});});
+      b1=0;
+    }
+   });
+  $(".box2").click(function(){
+    if(b2==0){
+      $(".box2").animate({height:"80vh", width:"70vw", float: "right"},function(){$(".box2>.content").show();});
+      b2=1;
+    }
+    else{
+      $(".box2>.content").hide(function(){$(".box2").animate({height:"45vh", width:"40vw", margin:"15vh 10vh 25vh auto", float: "right"});});
+      b2=0;
+    }
+  });
 });
