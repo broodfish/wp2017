@@ -33,13 +33,13 @@ body {
   background-color: #DDDDDD;
 }
 .box1 {
-  width: 50vw;
+  width: 40vw;
   height: 40vh;
   background-color:rgba(141, 140, 140, 0.83); 
   margin:2.5vw auto 5vh 5vh;
 }
 .box2 {
-  width: 45vw;
+  width: 35vw;
   height: 40vh;
   background-color: rgba(250, 250, 250, 0.83);
   margin:15vh 10vh 25vh auto;
@@ -52,6 +52,7 @@ body {
 .content{
   float: left;
   margin:5vh 0 0 5vw;
+  display:none;
 }
 .pic1{
   float: left;
