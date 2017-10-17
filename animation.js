@@ -44,7 +44,7 @@ $(document).ready(function(){
   });
 
   function center(){
-    $(".nav").css("top","15vh");
+    $(".nav").css("top","35vh");
   }
   $(window).scroll(function(){
     if(n==1){
