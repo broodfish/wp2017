@@ -67,7 +67,7 @@ $(document).ready(function(){
       b1=1;
     }
     else{
-      $(".box1>.content").hide(function(){$(".box1").animate({height:"40vh", width:"50vw", margin:"2.5vw auto 5vh 5vh"});});
+      $(".box1>.content").hide(function(){$(".box1").animate({height:"40vh", width:"40vw", margin:"2.5vw auto 5vh 5vh"});});
       b1=0;
     }
    });
@@ -77,7 +77,7 @@ $(document).ready(function(){
       b2=1;
     }
     else{
-      $(".box2>.content").hide(function(){$(".box2").animate({height:"45vh", width:"40vw", margin:"15vh 10vh 25vh auto", float: "right"});});
+      $(".box2>.content").hide(function(){$(".box2").animate({height:"45vh", width:"35vw", margin:"15vh 10vh 25vh auto", float: "right"});});
       b2=0;
     }
   });
