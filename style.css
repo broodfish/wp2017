@@ -59,7 +59,7 @@ body {
 }
 .pic2{
   float: right;
-  margin:5vh 0 0 5vw;
+  margin:5vh 5vw 0 0;
 }
 .footer{
   width:40vw;
