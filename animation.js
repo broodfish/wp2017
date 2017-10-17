@@ -5,8 +5,10 @@ $(document).ready(function(){
   $(window).mousewheel(function(e){
     b1=0;
     b2=0;
-    $(".box1>.content").hide("fast",function(){$(".box1").animate({height:"40vh", width:"50vw", margin:"2.5vw auto 5vh 5vh"},"fast");});
-    $(".box2>.content").hide("fast",function(){$(".box2").animate({height:"45vh", width:"40vw", margin:"15vh 10vh 25vh auto", float: "right"},"fast");});
+    b3=0
+    $(".box1>.content").hide("fast",function(){$(".box1").animate({height:"40vh", width:"40vw", margin:"2.5vw auto 5vh 5vh"},"fast");});
+    $(".box2>.content").hide("fast",function(){$(".box2").animate({height:"40vh", width:"35vw", margin:"15vh 10vh 25vh auto", float: "right"},"fast");});
+    $(".box3>.content").hide("fast",function(){$(".box3").animate({height:"40vh", width:"45vw", margin:"10vh auto 20vh 35vh"},"fast");}); 
       if(e.deltaY==-1){
         if(n<num_li){
           n++;
@@ -78,5 +80,15 @@ $(document).ready(function(){
       $(".box2>.content").hide(function(){$(".box2").animate({height:"45vh", width:"40vw", margin:"15vh 10vh 25vh auto", float: "right"});});
       b2=0;
     }
+  });
+  $(".box3").click(function(){                                                                                                  
+      if(b3==0){                                                                                                                 
+      $(".box3").animate({height:"80vh", width:"70vw"},function(){$(".box2>.content").show();});                                  
+      b3=1;                                                                                                                         
+    }                                                                                                                                  
+    else{                                                                                                                               
+      $(".box3>.content").hide(function(){$(".box3").animate({height:"40vh", width:"45vw", margin:"10vw auto 20vh 35vh"});});              
+      b3=0;                                                                                                                               
+    }                                                                                                                                    
   });
 });

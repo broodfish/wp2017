@@ -45,8 +45,9 @@ body {
   margin:15vh 10vh 25vh auto;
 }
 .box3{
-  width: 35vw;
-  height:30vh;
+  width: 45vw;
+  height:40vh;
+  background-color:rgba(141, 140, 140, 0.83);
   margin:10vh auto 20vh 35vh;
 }
 .content{
@@ -61,6 +62,10 @@ body {
 .pic2{
   float: right;
   margin:5vh 5vw 0 0;
+}
+.pic3{
+  float: left;
+  margin:5vh 0 0 5vw;
 }
 .footer{
   width:40vw;
